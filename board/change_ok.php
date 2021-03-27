@@ -1,5 +1,5 @@
 <?php
-include '../db_conn.php';
+include './db_conn.php';
 $id = $_GET['idx']; 
 
 $_title = $_POST['title'];

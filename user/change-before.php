@@ -1,5 +1,5 @@
 <?php
-include '../db_conn.php';
+include '.../board/db_conn.php';
 $id = $_GET['a'];
 
 ?>

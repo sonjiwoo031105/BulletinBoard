@@ -41,7 +41,7 @@
     </thead>
     <tbody>
         <?php
-            include '../db_conn.php';
+            include './db_conn.php';
             $sql="select * from board order by id desc";
             $result = mysqli_query($conn, $sql);
             while($re = mysqli_fetch_row($result)){?>

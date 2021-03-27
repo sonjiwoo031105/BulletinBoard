@@ -1,5 +1,5 @@
 <?php
-include '../db_conn.php';
+include './db_conn.php';
 $id = $_GET['a'];
 $sql="select * from board where id = '$id'";
 $result = mysqli_query($conn, $sql);

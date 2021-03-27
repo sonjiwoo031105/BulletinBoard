@@ -1,5 +1,5 @@
 <?php
-include '../db_conn.php';
+include '.../board/db_conn.php';
 $uid = $_GET["userid"];
 $sql = "select * from joint where userid='$uid'";
 $result= mysqli_query($conn,$sql);

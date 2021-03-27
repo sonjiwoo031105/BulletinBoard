@@ -1,5 +1,5 @@
 <?php
-include '../db_conn.php';
+include '.../board/db_conn.php';
 $_userid = $_POST['userid'];
 $_passwd = $_POST['passwd'];
 $_passwdCheck = $_POST['passwdCheck'];

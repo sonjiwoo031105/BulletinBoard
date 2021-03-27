@@ -44,7 +44,7 @@
     </thead>
     <tbody>
         <?php
-            include '../db_conn.php';
+            include '.../board/db_conn.php';
             $sql="select * from joint;";
             $result = mysqli_query($conn, $sql);
             while($re = mysqli_fetch_row($result)){

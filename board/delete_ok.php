@@ -1,5 +1,5 @@
 <?php
-include '../db_conn.php';
+include './db_conn.php';
 $_id = $_GET['idx'];
 $_passwd = $_POST['passwd'];
 

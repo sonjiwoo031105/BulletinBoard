@@ -1,7 +1,6 @@
 <?php 
   ini_set('error_reporting','E_ALL ^ E_NOTICE');
-  include '../db_conn.php';
-?>
+  include '.../board/db_conn.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
